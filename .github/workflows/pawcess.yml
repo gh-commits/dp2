@@ -66,7 +66,7 @@ jobs:
           wget https://download.companieshouse.gov.uk/BasicCompanyDataAsOneFile-2026-03-02.zip
           unzip BasicCompanyDataAsOneFile-2026-03-02.zip
           rm -f BasicCompanyDataAsOneFile-2026-03-02.zip
-          python3 pawcess.py BasicCompanyDataAsOneFile-2026-03-02.csv
+          python3 pawcess.py home/bulkdata/scripts/temp/217/BasicCompanyDataAsOneFile-2026-03-02.csv
           ls -lsh && pwd
 
       # - name: Upload source tarball
